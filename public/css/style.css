@@ -52,12 +52,12 @@ body{
     width: 100% !important;
 }
 
+.container{
+    height: 100% !important;
+}
+
 .wrapper{
+    padding: 10px;
     width: 50%;
-    margin: 0 auto 0 auto;
+    margin: auto;
 }
-
-.form{
-    margin: 0 auto 0 auto;
-}
-

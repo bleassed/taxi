@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained()->onDelete('cascade');
+            // $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('name'); // забыл указать длинну столбца
             $table->string('phone', 20);
-            $table->string('mail', 50)->nullable();
+            $table->text('mail', 50)->nullable();
             $table->string('adr_from');
             $table->string('adr_to');
             $table->datetime('date_time');

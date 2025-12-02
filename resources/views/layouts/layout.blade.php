@@ -14,7 +14,7 @@
            
     <nav class="nav">
         <a class="nav-link" href="{{ route('main') }}">main page</a>
-        <a class="nav-link" href="{{ route('booking') }}">Link</a>
+        <a class="nav-link" href="{{ route('booking') }}">bookings</a>
     </nav>
 
     @yield('main')
