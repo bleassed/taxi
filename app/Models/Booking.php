@@ -9,7 +9,7 @@ class Booking extends Model
 {
     protected $fillable = ['name','phone','mail','adr_from','adr_to','date_time','passengers'];
 
-    // public function user():BelongsTo{
-    //     return $this->belongsTo(User::class);
-    // }
+    public function user():BelongsTo{
+        return $this->belongsTo(User::class);
+    }
 }

@@ -41,7 +41,7 @@
       <input type="number" id="passengers" name="passengers" min="1" max="3" class="form-control" />
   </div> 
 
-  <input type="submit" class="btn btn-primary">book</button>
+  <button type="submit" class="btn btn-primary">book</button>
 </form>
 
 

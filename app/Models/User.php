@@ -10,9 +10,9 @@ use App\Models\Booking;
 class user extends Model
 {
     protected $fillable = ['name','phone','mail'];
-    // public function booking(){
-    //     return $this->hasMany(Booking::class);
-    // }
+    public function booking(){
+        return $this->hasMany(Booking::class);
+    }
     
 }
 
